@@ -35,9 +35,10 @@ public class AutoGeneratorHelper {
 		cg.setSaveDir("/temp/neo/20170719");
 		cg.setDbDriverName("com.mysql.jdbc.Driver");
 		cg.setDbUser("root");
-		cg.setDbPassword("1234qwer");
-		cg.setDbUrl("jdbc:mysql://127.0.0.1:3306/transactionmsg?characterEncoding=utf8");
-		cg.setDbPrefix(false);
+		cg.setDbPassword("123456");
+		cg.setDbUrl("jdbc:mysql://172.20.21.40:3306/loanmkt_product?useUnicode=true&characterEncoding=UTF-8");
+		//此处设置是否有前缀
+		cg.setDbPrefix(true);
 		AutoGenerator.run(cg);
 	}
 	
