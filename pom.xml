@@ -31,7 +31,7 @@
 		<mybatis.version>3.4.0</mybatis.version>
 		<slf4j.version>1.7.21</slf4j.version>
 		<logback-classic.version>1.1.7</logback-classic.version>
-		<mysql-connector-java.version>5.1.38</mysql-connector-java.version>
+		<mysql-connector-java.version>8.0.16</mysql-connector-java.version>
 		<servlet-api.version>2.5</servlet-api.version>
 		<spring.version>4.2.6.RELEASE</spring.version>
 		<mybatis-ehcache.version>1.0.3</mybatis-ehcache.version>
@@ -103,7 +103,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.32</version>
+			<version>8.0.16</version>
 		</dependency>
 		<!-- Mysql Driver End -->
 	</dependencies>
